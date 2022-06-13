@@ -6,4 +6,4 @@ def get_value(value, key):
 
 object = {"a": { "b": { "c": "d" }}}
 key = 'a/b/c'
-print ("Result of x1/y1/z1:--", get_value(object, key))
+print ("Result of a/b/c:--", get_value(object, key))
